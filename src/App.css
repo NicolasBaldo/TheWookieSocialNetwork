@@ -1,27 +1,28 @@
-.App {
-  text-align: center;
+body {
+  background: url('/Users/nicolasbaldo/Documents/The Hacking Project Dev/ProjetValidantSocialNetwork/jotai-social-network/public/wookies.jpeg') no-repeat center center fixed;
+  background-size: cover auto;
+  background-color: rgba(113, 54, 9, 0.723);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar.bg-orange {
+  background-color: rgb(139, 105, 71);
+  border-radius: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  margin-top: 20px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(83, 56, 56);
 }
 
 .App-link {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-background {
+  background-color: #218cc6; /* Remplace #f0f0f0 par la couleur de fond souhaitée */
+}
+
+.custom-navbar-brand {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 30px; 
+  color: black; 
 }
